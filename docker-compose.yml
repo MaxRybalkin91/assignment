@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  postgres_db:
+    image: "postgres:11.4"
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: assignment
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
