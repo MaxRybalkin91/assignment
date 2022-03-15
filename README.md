@@ -1,0 +1,1 @@
+TO RUN THE TESTS - RUN THE 'docker-compose.yml' FILE
